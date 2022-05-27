@@ -1,0 +1,169 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about {
+    background-color: #e2c1f0;
+    margin: auto;
+    width: 70%;
+    border: 1px solid #e2c1f0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 4px gray;
+}
+
+nav {
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #8181e4;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #cc66ff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.navbar h2 {
+    color: #8181e4;
+    text-shadow: 2px 2px 2px #a39f9f;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid white;
+    margin-top: -10px;
+    box-shadow: 2px 2px 2px #b8b5b5;
+}
+
+.about h1 {
+    color: #8181e4;
+}
+
+.about h4 {
+    color: #008080;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.fa-brands {
+    cursor: pointer;
+    color: #4c166b;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+/* Projects */
+
+.row {
+    display: block;
+    align-items: center;
+
+}
+
+.row1 {
+    background-color: #e2c1f0;
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #e2c1f0;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.row1 .image {
+    position: relative;
+    align-self: left;
+    width: 300px;
+}
+
+.row1 h2 {
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+}
+
+.row1 p {
+    position: relative;
+    margin: auto;
+}
+
+.row h3 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #a5a4a4;
+    font-size: 24px;
+    color: #8181e4;
+}
+
+#buttons {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    height: 30px;
+    font-weight: bold;
+}
+
+.row1 h2 p .btns {
+    top: 20%;
+}
+
+.web-btn {
+    color: #066666;
+    background-color: #53bbbb;
+}
+
+.git-btn {
+    color: #eae6f0;
+    background-color: #8181e4;
+}
+
+@media screen and (min-width: 320px) and (orientation: portrait) {
+    .about {
+        width: 100%;
+    }
+    .row1 {
+        flex-direction: column;
+        position: relative;
+    }
+    .row1 .image {
+        width: 50%;
+        align-items: center;
+    }
+    .row1 .p {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 320px) and (orientation: landscape) {
+    
+}

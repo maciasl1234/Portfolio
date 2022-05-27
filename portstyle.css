@@ -1,0 +1,150 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about {
+    background-color: #e2c1f0;
+    margin: 60px 520px;
+    border: 1px solid #e2c1f0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 4px 4px 4px gray;
+}
+
+nav {
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks {
+    flex: 1;
+    text-align: right;
+}
+
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlinks ul li a {
+    color: #8181e4;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navlinks ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #cc66ff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navlinks ul li:hover::after {
+    width: 100%;
+}
+
+.header h2 {
+    color: #8181e4;
+    text-shadow: 2px 2px 2px #a39f9f;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid white;
+    margin-top: -10px;
+    box-shadow: 2px 2px 2px #b8b5b5;
+}
+
+.about h1 {
+    color: #8181e4;
+}
+
+.about h4 {
+    color: teal;
+}
+
+.contact {
+    font-weight: bold;
+}
+
+.fa-brands {
+    cursor: pointer;
+    color: #4c166b;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+/* Projects */
+
+.row1 {
+    background-color: #e2c1f0;
+    margin: 40px 200px;
+    width: 80%;
+    border: 1px solid #e2c1f0;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    display: inline-block;
+    position: relative;
+}
+
+#img {
+    float: left;
+    max-width: 40%;
+    height: 250px;
+    padding-right: 10px;
+}
+
+.row1 h2 {
+    top: 0;
+    margin-left: 20px;
+}
+
+.row1 .details {
+    margin-right: 20px;
+    margin-left: 16px;
+    margin-top: 30px;
+    left: 20%;
+    font-weight: bold;
+}
+
+.row h3 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #a5a4a4;
+    font-size: 24px;
+    color: #8181e4;
+}
+
+#buttons {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    float: right;
+    position: relative;
+    height: 30px;
+    top: -40px;
+    right: 30px;
+    font-weight: bold;
+}
+
+.web-btn {
+    color: #066666;
+    background-color: #53bbbb;
+}
+
+.git-btn {
+    color: #eae6f0;
+    background-color: #8181e4;
+}
