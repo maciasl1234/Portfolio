@@ -1,0 +1,14 @@
+/* Common */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-primary {
+    color: #aa49c2;
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
