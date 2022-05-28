@@ -12,3 +12,53 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* About section */
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+    background: #c09dee;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+#about img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#about .vocation {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #353838;
+}
+
+#about .skills {
+    font-size: 15px;
+    color: #008080;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#about .email {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#about .icons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#about .icons a {
+    color: #582358;
+}
