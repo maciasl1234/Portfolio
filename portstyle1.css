@@ -13,11 +13,30 @@ body {
     font-weight: bold;
 }
 
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px #5d4d64;
+}
+
+a.font-black {
+    color: #000000 !important;
+}
+
+.navbar-brand {
+    text-shadow: 2px 2px 2px lightgray;
+}
+
 /* About section */
 
 #about {
-    margin: 60px auto;
-    max-width: 400px;
+    margin: 40px auto;
+    max-width: 600px;
     text-align: center;
     background: #c09dee;
     border-radius: 20px;
@@ -61,4 +80,46 @@ body {
 
 #about .icons a {
     color: #582358;
+}
+
+#about h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Projects section */
+
+#projects {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px lightgray;
+    margin-bottom: 20px;
+}
+
+#projects .card .img-fluid {
+    width: 100%;
+    border-radius: 5%;
+}
+
+#projects .card {
+    background: #c09dee;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+#projects .card-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#projects .card-text {
+    font-weight: bold;
+    color: #000000;
 }
